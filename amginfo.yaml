@@ -1,0 +1,13 @@
+ 
+dataset_info:
+  - 2  # number of biomarkers in the dataset
+  - 20 # percentage considered out of bounds
+  - 0.1 # filter from 0 to value (between 0 and 1)
+
+# dictionary of biomarkers with how they appear in the table as the key
+# high and low values in a 2 elem list
+biomarkers:
+  "Albumin": [0, 34, 54]        #[element index, lower boundary, upper boundary] in g/L
+  "Alkaline Phosphatase": [2, 20, 140]  #U/L
+
+  

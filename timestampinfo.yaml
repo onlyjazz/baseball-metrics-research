@@ -1,0 +1,13 @@
+# table_selections:
+#   - "select * from AMGLABS where MEASUREMENT='Albumin' or MEASUREMENT='Alkaline Phosphatase' ORDER BY VISITDY ASC;" #toxicity lab table
+#   - "SELECT DISTINCT subjid, visitdy, rsresp FROM ADRSP where RSRESP != '' order by VISITDY ASC;" #treatment response table
+#   - "select * from AMGAE" #adverse events table
+
+  program_vars:
+  - 9 #patient number
+  - -15 #day that you want to calculate a patients composite upto, if -1, the program will determine a patients progress over the entire study
+  - 60 #m1
+  - 30 #m2
+  - 10 #m3
+  - 15218191 #study id
+
